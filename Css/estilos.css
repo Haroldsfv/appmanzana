@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+header{
+    margin: 10px ;
+    width: 98%;
+    height: 120px;
+    border-radius: 10px;
+    background: rgb(207, 207, 207);
+}
+body{
+    background-color:#d4f1c6;
+}
+#nusuario{
+    margin-left: 40%;
+}
+#nusuario1{
+    margin-left: 37%;
+}
+#s_select{
+    margin-left: 3%;
+}
+#s_disp{
+    margin-left: 37%;
+}
+li{
+    list-style: none;
+}
+
+#listaservicios2{
+    position: absolute;
+    left: 48.5%;
+    width: 11%;
+    top: 27%;
+    height: auto;
+    background: rgb(207, 207, 207);
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+header ul{
+    position: absolute;
+    top: 50px;
+    left: 85%;
+}
+a{
+    text-decoration: none;
+}
+#serviciosss{
+    display: flex;
+}
+
+header ul li{
+    padding: 2px;
+    display: inline;
+    margin-inline: 10px;
+    margin-block: 10px;
+    font-size: 22px;
+    color: rgb(85, 78, 78);
+    transition: all 1.5s;
+    font-weight: bold;
+}
+
+li:hover{
+    color: #663399;
+    
+}
+
+img{
+    height: 100px;
+}
+#contenedor_servicios{
+    width: auto;
+    height: auto;
+    background: rgb(207, 207, 207);
+    margin-left: 35.5%;
+    border-radius: 10px;
+
+}
+button{
+    text-decoration: none;
+    color: black;
+    background: #efefef;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-family: serif;
+    cursor: pointer;
+}
+button:hover{
+    color: #663399;
+}
+#borrar{
+    position: absolute;
+    left: 48.7%;
+    top: auto;
+}
+#fechaHora:hover{
+    color: #663399;
+}
